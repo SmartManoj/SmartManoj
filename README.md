@@ -9,6 +9,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SmartManoj&layout=compact" />
 </a>
 
+
 <img src="https://komarev.com/ghpvc/?username=SmartManoj&style=for-the-badge">
 
 
