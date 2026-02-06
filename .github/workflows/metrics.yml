@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -29,6 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: header.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -45,6 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: acti_comm.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -59,6 +62,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: iso_calender.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -75,6 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -94,6 +99,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: issue_pr_lang.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -110,6 +116,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gh-metrics/metrics@master
+        continue-on-error: true
         with:
           filename: repositories.svg
           token: ${{ secrets.METRICS_SECRET }}
